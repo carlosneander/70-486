@@ -89,7 +89,6 @@ static string GetMd5Hash(MD5 md5Hash, string input)
              }
              set
              {
-                
                 PasswordHash = GetMd5Hash(md5Hash, value);
              }
         }
